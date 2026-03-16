@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Trainer</title>
+
+<style>
+
+body{
+font-family:sans-serif;
+margin:30px;
+text-align:center;
+}
+
+#jp{
+font-size:22px;
+margin:30px;
+}
+
+#en{
+font-size:20px;
+color:#2a6;
+margin:20px;
+display:none;
+}
+
+#note{
+font-size:14px;
+color:#666;
+margin-top:20px;
+display:none;
+}
+
+button{
+font-size:18px;
+padding:10px 20px;
+margin:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>English Trainer</h2>
+
+<div id="jp"></div>
+<div id="en"></div>
+<div id="note"></div>
+
+<button onclick="showAnswer()">Show Answer</button>
+
+<br>
+
+<button onclick="markEasy()">Easy</button>
+<button onclick="markHard()">Hard</button>
+
+<script src="app.js"></script>
+
+</body>
+</html>
