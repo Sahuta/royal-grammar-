@@ -28,17 +28,17 @@ let q = queue.shift()
 
 current = q
 
-document.getElementById("japanese").innerText = q.japanese
-document.getElementById("english").innerText = q.english
+document.getElementById("jp").innerText = q.japanese
+document.getElementById("en").innerText = q.english
 document.getElementById("note").innerText = q.note
 
-document.getElementById("english").style.display="none"
+document.getElementById("en").style.display="none"
 document.getElementById("note").style.display="none"
 
 }
 
 function showAnswer(){
-document.getElementById("english").style.display="block"
+document.getElementById("en").style.display="block"
 document.getElementById("note").style.display="block"
 }
 
