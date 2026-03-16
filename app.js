@@ -2,7 +2,7 @@ let data = []
 let queue = []
 let current = 0
 
-fetch("https://gist.github.com/ompugao/da2202901371e602b114e27ad59d87c0#file-royal-300-json")
+fetch("https://gist.githubusercontent.com/ompugao/da2202901371e602b114e27ad59d87c0/raw/royal-300.json")
 .then(r=>r.json())
 .then(d=>{
 data = d
